@@ -4,19 +4,19 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Anna Smirnova",
-    subtitle: "Psychologist · Gestalt Therapist",
-    description: "I help you find support within yourself, understand your feelings, and live more fully and consciously",
+    title: "Akim Kruglov",
+    subtitle: "Psychologist · Gestalt Therapist · Penitentiary Psychology",
+    description: "\"Coincidence is the pseudonym of God.\" I help people navigate difficult life periods and find the path to inner wholeness.",
   },
   de: {
-    title: "Anna Smirnova",
-    subtitle: "Psychologin · Gestalttherapeutin",
-    description: "Ich helfe Ihnen, Halt in sich selbst zu finden, Ihre Gefuhle zu verstehen und bewusster zu leben",
+    title: "Akim Kruglov",
+    subtitle: "Psychologe · Gestalttherapeut · Penitentiare Psychologie",
+    description: '\u201eZufall ist das Pseudonym Gottes.\u201c Ich helfe Menschen, schwierige Lebensphasen zu durchlaufen und den Weg zur inneren Ganzheit zu finden.',
   },
   ru: {
-    title: "Анна Смирнова",
-    subtitle: "Психолог · Гештальт-терапевт",
-    description: "Помогаю найти опору в себе, разобраться в чувствах и жить более полно и осознанно",
+    title: "Аким Круглов",
+    subtitle: "Психолог · Гештальт-терапевт · Пенитенциарная психология",
+    description: "«Совпадение — это псевдоним Бога.» Помогаю проходить сложные жизненные периоды и находить путь к внутренней целостности.",
   },
 }
 

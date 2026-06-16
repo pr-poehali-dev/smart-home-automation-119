@@ -6,7 +6,7 @@ const translations = {
   en: {
     copyright: "All rights reserved.",
     followMe: "Follow",
-    subtitle: "Psychologist · Gestalt Therapist",
+    subtitle: "Psychologist · Gestalt Therapist · Penitentiary Psychology",
     quickLinks: "Quick Links",
     biography: "About Me",
     concerts: "How I Work",
@@ -17,7 +17,7 @@ const translations = {
   de: {
     copyright: "Alle Rechte vorbehalten.",
     followMe: "Folgen Sie mir",
-    subtitle: "Psychologin · Gestalttherapeutin",
+    subtitle: "Psychologe · Gestalttherapeut · Penitentiare Psychologie",
     quickLinks: "Schnelllinks",
     biography: "Uber mich",
     concerts: "Wie ich arbeite",
@@ -28,7 +28,7 @@ const translations = {
   ru: {
     copyright: "Все права защищены.",
     followMe: "Соцсети",
-    subtitle: "Психолог · Гештальт-терапевт",
+    subtitle: "Психолог · Гештальт-терапевт · Пенитенциарная психология",
     quickLinks: "Навигация",
     biography: "Обо мне",
     concerts: "Форматы работы",
@@ -46,7 +46,7 @@ export default function Footer({ language }: FooterProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-warm-white mb-4">А. Смирнова</h3>
+            <h3 className="text-warm-white mb-4">А. Круглов</h3>
             <small className="text-warm-white/70">{t.subtitle}</small>
           </div>
 
@@ -85,7 +85,7 @@ export default function Footer({ language }: FooterProps) {
         </div>
 
         <div className="border-t border-warm-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-warm-white/70">
-          <small>&copy; 2025 Анна Смирнова. {t.copyright}</small>
+          <small>&copy; 2025 Аким Круглов. {t.copyright}</small>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-warm-white transition-colors">
               {t.privacyPolicy}

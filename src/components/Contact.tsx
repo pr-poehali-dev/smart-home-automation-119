@@ -8,42 +8,42 @@ interface ContactProps {
 const translations = {
   en: {
     heading: "Contact",
-    subheading: "Get in Touch",
-    email: "Email",
+    subheading: "Book a Consultation",
+    email: "WhatsApp / Telegram",
     phone: "Phone",
-    message: "Message",
+    message: "Your message",
     send: "Send Message",
-    location: "Location",
-    name: "Name",
-    successMessage: "Message sent successfully!",
-    locationValue: "Berlin, Germany",
-    phoneValue: "+49 (30) 123-4567",
+    location: "Address",
+    name: "Your Name",
+    successMessage: "Message sent! I will get back to you shortly.",
+    locationValue: "Rostov-on-Don, 1st Konnoy Armii St., 15A, 3rd floor, office 304",
+    phoneValue: "8 (906) 181-00-42",
   },
   de: {
     heading: "Kontakt",
-    subheading: "Treten Sie mit uns in Kontakt",
-    email: "E-Mail",
+    subheading: "Beratung buchen",
+    email: "WhatsApp / Telegram",
     phone: "Telefon",
-    message: "Nachricht",
+    message: "Ihre Nachricht",
     send: "Nachricht senden",
-    location: "Standort",
-    name: "Name",
-    successMessage: "Nachricht erfolgreich gesendet!",
-    locationValue: "Berlin, Deutschland",
-    phoneValue: "+49 (30) 123-4567",
+    location: "Adresse",
+    name: "Ihr Name",
+    successMessage: "Nachricht gesendet! Ich melde mich in Kurze.",
+    locationValue: "Rostow am Don, 1. Konnoy-Armii-Str., 15A, 3. OG, Buro 304",
+    phoneValue: "8 (906) 181-00-42",
   },
   ru: {
     heading: "Контакты",
-    subheading: "Свяжитесь с нами",
-    email: "Эл. почта",
+    subheading: "Запись на консультацию",
+    email: "WhatsApp / Telegram",
     phone: "Телефон",
-    message: "Сообщение",
+    message: "Ваше сообщение",
     send: "Отправить",
-    location: "Город",
-    name: "Имя",
-    successMessage: "Сообщение успешно отправлено!",
-    locationValue: "Берлин, Германия",
-    phoneValue: "+49 (30) 123-4567",
+    location: "Адрес",
+    name: "Ваше имя",
+    successMessage: "Сообщение отправлено! Свяжусь с вами в ближайшее время.",
+    locationValue: "г. Ростов-на-Дону, ул. 1-й Конной Армии, 15А, 3 этаж, каб. 304",
+    phoneValue: "8 (906) 181-00-42",
   },
 }
 
@@ -55,7 +55,7 @@ export default function Contact({ language }: ContactProps) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
-    const mailtoLink = `mailto:hello@example.com?subject=${encodeURIComponent(`New message from ${formData.name}`)}&body=${encodeURIComponent(`From: ${formData.email}\n\n${formData.message}`)}`
+    const mailtoLink = `mailto:akimkruglov@example.com?subject=${encodeURIComponent(`Запись на консультацию от ${formData.name}`)}&body=${encodeURIComponent(`Имя: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`
     window.location.href = mailtoLink
 
     setSubmitted(true)
@@ -77,7 +77,7 @@ export default function Contact({ language }: ContactProps) {
           <div className="space-y-8 animate-fade-in-up">
             <div>
               <small className="font-medium text-charcoal/70 mb-2 block">{t.email}</small>
-              <p className="text-charcoal">hello@example.com</p>
+              <p className="text-charcoal">8 (906) 181-00-42</p>
             </div>
             <div>
               <small className="font-medium text-charcoal/70 mb-2 block">{t.phone}</small>

@@ -6,28 +6,28 @@ const translations = {
   en: {
     heading: "About Me",
     paragraphs: [
-      "I am a practicing psychologist and certified Gestalt therapist. In my work I help people understand themselves, cope with anxiety, stress, and difficult life situations, and rebuild a warm and trusting relationship with themselves.",
-      "Gestalt therapy is a gentle yet deep approach focused on awareness of feelings, needs, and the way we contact the world around us. Together we explore what is happening in your life here and now, and find new, more supportive ways of living.",
-      "I work with anxiety and burnout, relationship and self-worth struggles, loss and life crises, as well as the search for meaning and one's own path. Every session is a safe, judgment-free space where you can be yourself.",
-      "I believe that everyone already has the resources for change — sometimes they just need to be noticed and supported. My job is to be a caring companion on that journey.",
+      "I am a practicing psychologist, certified Gestalt therapist, and specialist in penitentiary and military psychology. I help people navigate difficult life periods, understand themselves, release the pain of the past, and find the path to inner wholeness.",
+      "My goal is to be present when things are hard, to help you see what is holding you back, and to support you on the path toward a more conscious, fulfilling life.",
+      "In my work I draw on Gestalt therapy approaches, as well as my experience in penitentiary and military psychology — which allows for a deeper understanding of trauma, boundaries, guilt, adaptation, and recovery.",
+      "Psychotherapy is not magic. It is a path on which it is important not to walk alone. If you feel stuck, exhausted, or simply want to understand yourself better — start with one step. Book a consultation. That is already movement toward something better.",
     ],
   },
   de: {
     heading: "Uber mich",
     paragraphs: [
-      "Ich bin praktizierende Psychologin und zertifizierte Gestalttherapeutin. In meiner Arbeit helfe ich Menschen, sich selbst zu verstehen, mit Angst, Stress und schwierigen Lebenssituationen umzugehen und eine warme, vertrauensvolle Beziehung zu sich selbst aufzubauen.",
-      "Die Gestalttherapie ist ein sanfter und zugleich tiefer Ansatz, der auf das Bewusstsein fur Gefuhle, Bedurfnisse und den Kontakt zur Welt ausgerichtet ist. Gemeinsam erkunden wir, was in Ihrem Leben hier und jetzt geschieht, und finden neue, unterstutzende Wege.",
-      "Ich arbeite mit Angst und Burnout, Beziehungsthemen und Selbstwert, Verlust und Lebenskrisen sowie der Suche nach Sinn und dem eigenen Weg. Jede Sitzung ist ein sicherer Raum ohne Bewertung, in dem Sie Sie selbst sein durfen.",
-      "Ich bin uberzeugt, dass jeder Mensch bereits die Ressourcen fur Veranderung in sich tragt - manchmal mussen sie nur bemerkt und gestutzt werden. Meine Aufgabe ist es, ein achtsamer Begleiter auf diesem Weg zu sein.",
+      "Ich bin praktizierender Psychologe, zertifizierter Gestalttherapeut und Spezialist fur penitentiare und Militarpsychologie. Ich helfe Menschen, schwierige Lebensphasen zu durchlaufen, sich selbst besser zu verstehen, den Schmerz der Vergangenheit loszulassen und den Weg zur inneren Ganzheit zu finden.",
+      "Mein Ziel ist es, da zu sein, wenn es schwer wird, zu helfen, das zu sehen, was das Vorankommen verhindert, und auf dem Weg zu einem bewussteren, erfullten Leben zu begleiten.",
+      "In meiner Arbeit stutze ich mich auf die Gestalttherapie sowie auf Erfahrungen in der penitentiaren und Militarpsychologie — was ein tieferes Verstandnis von Trauma, Grenzen, Schuld, Anpassung und Erholung ermoglicht.",
+      "Psychotherapie ist keine Magie. Es ist ein Weg, auf dem es wichtig ist, nicht allein zu gehen. Wenn Sie sich feststeckend, erschopft fuhlen oder sich einfach selbst besser verstehen mochten — beginnen Sie mit einem Schritt.",
     ],
   },
   ru: {
     heading: "Обо мне",
     paragraphs: [
-      "Я практикующий психолог и сертифицированный гештальт-терапевт. В своей работе я помогаю людям лучше понимать себя, справляться с тревогой, стрессом и сложными жизненными ситуациями, выстраивать тёплые и доверительные отношения с собой.",
-      "Гештальт-терапия — это бережный и одновременно глубокий подход, в центре которого осознавание чувств, потребностей и того, как мы контактируем с окружающим миром. Вместе мы исследуем, что происходит в вашей жизни здесь и сейчас, и находим новые, более поддерживающие способы жить.",
-      "Я работаю с тревогой и выгоранием, трудностями в отношениях и самооценкой, переживанием потерь и жизненными кризисами, а также с поиском смысла и собственного пути. Каждая встреча — это безопасное пространство без оценок, где можно быть собой.",
-      "Я верю, что у каждого человека уже есть ресурсы для изменений — иногда их просто важно заметить и поддержать. Моя задача — быть бережным спутником на этом пути.",
+      "Я практикующий психолог, сертифицированный гештальт-терапевт и специалист в области пенитенциарной и военной психологии. Помогаю людям проходить сложные жизненные периоды, разбираться в себе, отпускать боль прошлого и находить путь к внутренней целостности.",
+      "Моя задача — быть рядом, когда сложно, помочь увидеть то, что мешает двигаться дальше, и поддержать на пути к более осознанной, наполненной жизни.",
+      "В работе опираюсь на подходы гештальт-терапии, а также опыт в пенитенциарной и военной психологии, что позволяет глубже понимать особенности травмы, границ, вины, адаптации и восстановления.",
+      "Психотерапия — это не магия. Это путь, на котором важно не идти в одиночку. Если вы чувствуете, что застряли, устали, или просто хочется понять себя — начните с одного шага. Запишитесь на консультацию. Это уже движение к лучшему.",
     ],
   },
 }
