@@ -65,8 +65,15 @@ export default function Navigation({ language, onLanguageChange }: NavigationPro
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className={`${logoColor} font-serif text-2xl font-normal tracking-wide transition-colors duration-300`}>
-            А. Круглов
+          <div className="flex items-center gap-3">
+            <img
+              src="https://cdn.poehali.dev/projects/bc5abae9-f273-47a0-a038-4198fea19e4d/bucket/c2977b3e-ff11-4385-9b7b-bccfecf037ae.jpg"
+              alt="Логотип"
+              className="w-9 h-9 object-contain"
+            />
+            <span className={`${logoColor} font-serif text-xl font-normal tracking-wide transition-colors duration-300`}>
+              А. Круглов
+            </span>
           </div>
 
           {/* Desktop Menu */}
