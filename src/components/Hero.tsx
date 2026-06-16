@@ -4,19 +4,19 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Alexander Voss",
-    subtitle: "Classical Pianist",
-    description: "A virtuoso performer captivating audiences at the world's most prestigious concert halls",
+    title: "Anna Smirnova",
+    subtitle: "Psychologist · Gestalt Therapist",
+    description: "I help you find support within yourself, understand your feelings, and live more fully and consciously",
   },
   de: {
-    title: "Alexander Voss",
-    subtitle: "Klassischer Pianist",
-    description: "Ein virtuoser Performer, der Publikum in den renommiertesten Konzertsalen der Welt fasziniert",
+    title: "Anna Smirnova",
+    subtitle: "Psychologin · Gestalttherapeutin",
+    description: "Ich helfe Ihnen, Halt in sich selbst zu finden, Ihre Gefuhle zu verstehen und bewusster zu leben",
   },
   ru: {
-    title: "Александр Фосс",
-    subtitle: "Классический пианист",
-    description: "Виртуозный исполнитель, очаровывающий публику в престижнейших концертных залах мира",
+    title: "Анна Смирнова",
+    subtitle: "Психолог · Гештальт-терапевт",
+    description: "Помогаю найти опору в себе, разобраться в чувствах и жить более полно и осознанно",
   },
 }
 
